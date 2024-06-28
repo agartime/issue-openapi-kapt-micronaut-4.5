@@ -31,7 +31,7 @@ ksp("io.micronaut.openapi:micronaut-openapi")
 
 ### Works when using micronaut < 4.4.0
 Setting `micronautVersion` to `4.3.0` in `gradle.properties` (and keeping openapi in kapt in the `build.gradle` file)
-shows how it was working before.
+proves it was working before.
 
 ## Stacktrace: 
 ```
