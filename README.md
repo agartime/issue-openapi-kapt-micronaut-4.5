@@ -1,12 +1,12 @@
 # Issue with KAPT and openapi from Micronaut 4.4.0
-
+Link to the issue: [https://github.com/micronaut-projects/micronaut-platform/issues/1560](https://github.com/micronaut-projects/micronaut-platform/issues/1560)
 
 ## Introduction
 
 In the repository I'm showing an issue happening from `micronautVersion=4.4.0`.
 openapi file is not generated when using `kapt`. It works when using `ksp`.
 
-It looks like `openapi.properties` like `micronaut.openapi.target.file` are being ignored.
+It looks like properties defined under `openapi.properties` (i.e `micronaut.openapi.target.file`) are being ignored.
 
 ## Steps to reproduce
 ```
