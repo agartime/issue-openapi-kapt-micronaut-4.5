@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI
+  description: Test OpenAPI in Micronaut 4.5
+  contact:
+    name: agartime
+    url: "${openapi.contact.url}"
+    email: "${openapi.contact.email}"
+  license:
+    name: "${openapi.license.name}"
+    url: "${openapi.license.url}"
+  version: v1.0.0
